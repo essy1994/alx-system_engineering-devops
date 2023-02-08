@@ -1,0 +1,5 @@
+#!/bin/bash
+dir=$dir
+for file in "${dir}/"*; do
+    echo -n "$file"
+done
