@@ -1,5 +1,5 @@
 #!/bin/bash
 dir=$dir
-for file in $( find ${dir} ); do
-    echo -n "$file"
-done
+#for file in $( find ${dir} ); do
+echo -n "$file" for file in $( find ${dir} )
+#done
